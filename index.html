@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <!-- ALternaitve Englisch: ABC-flash idea -->
+    <title>ABC Blitzidee</title>
+  </head>
+  <body>
+    <!-- Skript random letter wird ausgeführt und output angezeigt -->
+    <div id="randomLetter"></div>
+  </body>
+  <!-- Einbindung des Skriptes, damit mans hier ausführen kann -->
+  <script src="./js/helpers/randomLetter.js"></script>
+</html>
